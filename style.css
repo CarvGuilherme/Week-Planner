@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: 700px){
+body{
+    background-color: #00006f;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ranchers', cursive;
+    font-size: 4.0rem;
+    color:#eb8837;
+}
+
+.day a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ranchers', cursive; ;
+    font-size: 1.8rem;
+    color:#eb8837;
+    
+}
+
+.weekdays{
+    display: flex;
+    margin-top: 2rem;
+    
+    
+}
+
+.day textarea{
+    border-radius: 5px;
+    resize: none;
+    
+}
+
+.day{
+    padding: 0.07rem;
+}
+
+.task-button{
+    color: #e2d9d9;
+    background-color:rgb(45, 71, 143);
+    border: 1px solid #000507;
+    border-radius: 4px;
+
+    padding: 0 15px;
+    cursor: pointer;
+
+
+    height:40px;
+    width:200px;
+    font-size:20px;
+    transition: all 0.2s ease-in-out;
+
+    margin-left: 2rem;
+    font-family:'Ranchers', cursive; ;
+}
+
+.task-button:hover{
+    box-shadow: 1px 1px #ffffff, 2px 2px   #ffffff, 3px 3px  #ffffff;
+    transform: translateX(-3px);
+}
+
+
+}
+
+
+
+
+
